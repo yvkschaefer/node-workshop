@@ -15,6 +15,7 @@
   
 ### Getting some data
   * Create a branch called `iss` off of `master`. In it, write a simple node program that will output the latitude and longitude of the International Space Station.
+  * Practice your [google-fu](http://www.urbandictionary.com/define.php?term=google-fu) by searching for "iss api" and figuring out the correct URL to use.
   * Notice that the values provided by the API are very precise. Round off the values to two decimal digits for a nicer display.
   * Create a pull request so we can look at your code.
   
