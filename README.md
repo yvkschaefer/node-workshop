@@ -2,6 +2,7 @@
 ## NodeJS basic workshop
 
 ### Base instructions
+  * **If you did not finish** the exercises from the functions/objects workshop, please complete these first. You don't *need* to do the external Rx exercise, but I recommend you do it on your own time.
   * Fork this repository and clone it in a new Cloud9 workspace.
   * As you open the project in Cloud9, open a new terminal and go into the `workspace` directory inside your home folder.
   * Do a file listing that shows hidden files, and notice there is a file called `.gitignore`. Open this file with `nano` to check its contents.
