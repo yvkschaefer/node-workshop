@@ -31,9 +31,9 @@
     * It specifies a formula for calculating the distance. Scroll the page to the JavaScript portion, and create a function that uses the provided code. You don't need to understand what is going on in there, it is **very** mathy!
     * **NOTE**: In order for this code to work, you'll need to add the following code at the beginning of your program:
     ```javascript
-Number.prototype.toRadians = function() {
-    return this * Math.PI / 180;
-}
+    Number.prototype.toRadians = function() {
+        return this * Math.PI / 180;
+    }
 ```
   * Finally, display a message to the user telling them what their "distance" to the ISS is.
   * Create a pull request so we can look at your code.
