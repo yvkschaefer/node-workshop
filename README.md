@@ -1,7 +1,6 @@
 ## NodeJS basic workshop
 
 ### Base instructions
-  * **If you did not finish** the exercises from the functions/objects workshop, please complete these first. You don't *need* to do the external Rx exercise, but I recommend you do it on your own time.
   * Fork this repository and clone it in a new Cloud9 workspace.
   * As you open the project in Cloud9, open notice there is a file called `.gitignore`. Open this file to check its contents.
   * Notice that the `.gitignore` file contains one line that says "`node_modules`". What this is doing is telling Git that it should ignore the contents of the `node_modules` directory. Since the code in there comes from the outside world, we don't need to save it in our repo.
