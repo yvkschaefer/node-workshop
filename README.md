@@ -12,7 +12,7 @@
   * Save, commit and push.
 
 ### A wild interval has appeared!
-If you never tried `setInterval`, give it a try first. It works the same way as `setTimeout`, takes a function and a time in milliseconds. But instead of calling your callback once, it calls it **once every x milliseconds**. In this exercise, you'll have to mimic what setInterval is doing but **only with `setTimeout`**!
+If you never tried `setInterval`, give it a try first. It works the same way as `setTimeout`, takes a callback function and a time in milliseconds. But instead of calling your callback once, it calls it **once every x milliseconds**. In this exercise, you'll have to mimic what setInterval is doing but **only with `setTimeout`**!
 
 Your exercise: Write a piece of code using `setTimeout` that prints "Hello World!" every 10 seconds forever.
 
