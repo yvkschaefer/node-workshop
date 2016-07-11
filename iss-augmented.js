@@ -47,7 +47,8 @@ function calcDistance (lat1,lat2,lon1,lon2){
     var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
     var d = R * c;
-    console.log('the distance between the International Space Station and your location is: ' + Math.floor(d) + ' meters.');
+    var e = d/1000 //km conversion from meters
+    console.log('the distance between the International Space Station and your location is: ' + Math.floor(e) + ' kms.');
 }
 
 
