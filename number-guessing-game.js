@@ -19,7 +19,7 @@
 var prompt = require('prompt');
 var randomNumber = Math.floor(Math.random() * 100);
 // console.log(randomNumber);//uncomment if you want to know the number before you guess!
-var counter = 3
+var counter = 3//since I'm not putting the answer first, I would put this to 6 otherwise
 
 function guessNumber(){
 prompt.get('guess', function(err, answer){
@@ -27,7 +27,7 @@ prompt.get('guess', function(err, answer){
         console.log('sorry, there was an error');
     }
     else if (Number(answer.guess) === randomNumber){//Number() turns the string into a number
-            console.log('Congratulations, you guessed the number!');
+            return console.log('Congratulations, you guessed the number!');
         }
     else if (Number(answer.guess) > randomNumber){
             console.log('Oops, your guess is too high');
