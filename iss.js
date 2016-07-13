@@ -5,18 +5,17 @@
 // Notice that the values provided by the API are very precise. Round off the values to two decimal 
 //digits for a nicer display. Hint: toFixed
 // Save/commit/push
+var request = require('request');
 
-var url = 'https://api.wheretheiss.at/v1/satellites/25544';
-var request = require('request');//this line of logic is still lost on me...
+var ISS_API_URL = 'https://api.wheretheiss.at/v1/satellites/25544';
 
-
-request(url, function(err, location, body){
+request(ISS_API_URL, function(err, location, body){
     if (err) {
         console.log('there was an error');
     }
     else {
-        var parseBody = JSON.parse(body);
-        console.log('the latitude of the ISS is currently: ' + parseBody.latitude.toFixed(2));
-        console.log('the longitude of the ISS is currently: ' + parseBody.longitude.toFixed(2));
+        var data = JSON.parse(body);
+        console.log('the latitude of the ISS is currently: ' + data.latitude.toFixed(2));
+        console.log('the longitude of the ISS is currently: ' + data.longitude.toFixed(2));
     }
 });

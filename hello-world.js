@@ -17,7 +17,7 @@
 function repeat(){
      setTimeout(function() {
     console.log('Hello World!');
-      return repeat();
+      repeat();
   }, 10000)
 }
 repeat();
